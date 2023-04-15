@@ -10,8 +10,8 @@
       <div class="backgroundBox2">
         <!-- backgroundFormStyle盒子里面放的是整个搜索框 -->
         <div id="backgroundFormStyle">
-          <form action="https://www.google.com/search?q=" method="get" target="_parent" id="searchForm">
-            <input type="text" placeholder="搜索框" id="searchInput" autocomplete="off"/>
+          <form action="https://www.google.com/search" id="searchForm" method="get" name="searchform" target="_blank">
+            <input type="text" name="q" placeholder="搜索" id="searchInput" autocomplete="on"/>
             <input type="submit" id="confirmInput"/>
             <!-- 确定按钮简化为一个小圆圈。 -->
           </form>
@@ -21,7 +21,7 @@
           <!-- 在href中填写网站的地址，p标签中填写名字。 -->
           <!-- 不涉及JavaScript的话，建议使用a标签实现链接。 -->
           <a class="iconBackBox" href="https://www.bilibili.com/">
-            <img src="Icon/bilibili-icon.png" alt="">
+            <img src="icon/bilibili.png" alt="">
             <!-- src是图片的地址，alt是图片无法显示时的文字 -->
             <div>
               <p>bilibili</p>
