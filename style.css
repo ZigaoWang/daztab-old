@@ -1,0 +1,219 @@
+*{
+  /* 清除所有的padding、margin和border */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: #EFEEEE;
+  /* 长按鼠标并滑动的时候回选中框内的内容，这里禁止选中所有文本。 */
+  -moz-user-select:none;/*火狐*/
+  -webkit-user-select:none;/*webkit浏览器*/
+  -ms-user-select:none;/*IE10*/
+  -khtml-user-select:none;/*早期浏览器*/
+  user-select:none;
+}
+
+/*
+ * 以下是背景盒子的属性设置
+ */
+
+/* 两个盒子的属性主要是为了进行定位 */
+.backgroundBox1 {
+  background-color: inherit;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -200px;
+}
+.backgroundBox2 {
+  background-color: inherit;
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+
+/*
+ * 以下是有关的搜索框的布局
+ */
+
+#backgroundFormStyle {
+  position: relative;
+  height: 20%;
+  width: inherit;
+}
+#searchForm {
+  /* 搜索框的属性设置 */
+  position: absolute;
+  width: 500px;
+  height: 40px;
+  /* 盒子居中 */
+  top: 50%;
+  margin-top: -20px;
+  left: 50%;
+  margin-left: -250px;
+  /* 圆角属性，可以根据自己的喜好调节，50%盒子就是个圆形 */
+  border-radius: 20px;
+  /* 两个阴影属性，做出凸起的效果。 */
+  /* 第一个阴影为白色，向左和上移动。 */
+  /* 第二个阴影为黑色，向右和下移动。 */
+  /* 参数分别为：x方向偏移 y方向偏移 阴影模糊半径 颜色 */
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2),
+   -12px -12px 20px rgba(255, 255, 255, 1);
+}
+/* 注意：这里是搜索框的样式，和网站入口按钮不同，没有鼠标悬停点击等状态效果。 */
+#searchInput {
+  width: 90%;
+  height: inherit;
+  margin-left: 20px;
+  background-color: inherit;
+  /* outline用来清除点击搜索框的时候出现一个黑色小边框 */
+  outline: none;
+}
+#confirmInput {
+  /* 把确认按钮变成黑色边框小圆圈 */
+  width: 5%;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  position: absolute;
+  right: 10;
+  top: 50%;
+  margin-top: -10px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: thick;
+  border-style: solid;
+  outline: none;
+}
+#confirmInput:hover {
+  /* 鼠标悬停到确认按钮上变成小手手 */
+  cursor: pointer;
+}
+
+/*
+ * 下面是关于网站入口的按钮布局
+ */
+
+.iconBackBoxAll {
+  position: absolute;
+  /* 横向居中 */
+  left: 50%;
+  margin-left: -240px;
+  bottom: 0;
+  width: 480px;
+  height: 70%;
+}
+.iconBackBoxAll>a {
+  background-color: inherit;
+  position: relative;
+  /* 使用左浮动来布局，如果您的网站入口不是8个，建议另外进行布局 */
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  border-radius: 20%;
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2),
+   -12px -12px 20px rgba(255, 255, 255, 1);
+  /* 小手手 */
+  cursor: pointer;
+  /* 动画，阴影过度，做出一个纸面下凹的效果。 */
+  /* 参数：需要改变的样式（all是所有）  改变的时间  速度函数 */
+  /* 注意注意注意！！！！
+   * 这里必须填写速度函数，即便默认曲线就是ease，我也没搞清楚为啥。
+   * 后面需要从外阴影过渡到内阴影。在测试的时候，如果不写速度函数曲线没有效果。
+   * 其他样式，比如改变盒子宽高颜色没啥问题。希望有大佬帮忙解答一下原因。
+   */
+  transition: all .2s ease;
+}
+.iconBackBoxAll>a img {
+  /* 图片定位 */
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: 50%;
+  margin-top: -30px;
+  left: 50%;
+  margin-left: -23px;
+}
+.iconBackBox>div {
+  /* 文本定位 */
+  position: absolute;
+  width: 60px;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -30px;
+  text-align: center;
+}
+.iconBackBox>div p {
+  /* 文本样式 */
+  color: #6B6B6B;
+  font-size: 12px;
+}
+
+/*
+ * 下面是关于网站入口的伪类选择器
+ */
+
+.iconBackBoxAll>a:hover {
+  /* 这里改变盒子阴影 */
+  /*
+   * 四个参数：
+   * 前两个是黑白阴影从外阴影过渡到没有阴影
+   * 后连个是黑白阴影从没有阴影过渡到内阴影
+   */
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
+   0px 0px 0px rgba(255, 255, 255, 1),
+  12px 12px 20px rgba(0, 0, 0, 0.2) inset,
+   -12px -12px 20px rgba(255, 255, 255, 1) inset;
+}
+.iconBackBoxAll>a:active {
+  /* 点击时改变样式，加深效果 */
+   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2) inset,
+    -10px -10px 30px rgba(255, 255, 255, 1) inset;
+}
+
+
+/*
+ * 下面是对于增加和删除按钮的属性设置
+ */
+
+ /* 这里两个按钮没有功能，在删除html文件中的两个按钮的同时，可以选择删除这里的样式 */
+ /* 具体的思路和网站入口一样 */
+.setButtonBox {
+  /* background-color: red; */
+  position: fixed;
+  right: 100px; bottom: 50px;
+}
+.setButtonBox button{
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 50%;
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2),
+   -12px -12px 20px rgba(255, 255, 255, 1);
+  cursor: pointer;
+  outline: none;
+  transition: all .2s ease;
+}
+#addBut {
+  background-image: url(icon/addButton.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.setButtonBox button:hover{
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
+   0px 0px 0px rgba(255, 255, 255, 1),
+  12px 12px 20px rgba(0, 0, 0, 0.2) inset,
+   -12px -12px 20px rgba(255, 255, 255, 1) inset;
+}
+#deleteBut {
+  background-image: url(icon/delete.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
