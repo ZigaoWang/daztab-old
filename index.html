@@ -9,23 +9,21 @@
     <div class="backgroundBox1">
       <div class="backgroundBox2">
         <!-- 显示时间 -->
-        <h1><span id="time"> </span></h1>
+        <h1 class="time"> <span id="time"> </span></h1>
           <script src="time.js"></script>
-        <!-- backgroundFormStyle盒子里面放的是整个搜索框 -->
+        <!-- backgroundFormStyle搜索框 -->
         <div id="backgroundFormStyle">
           <form action="https://www.google.com/search" id="searchForm" method="get" name="searchform" target="_blank">
-            <input type="text" name="q" placeholder="搜索" id="searchInput" autocomplete="on"/>
+            <input type="text" name="q" placeholder="搜索" id="searchInput" autocomplete="off"/>
             <input type="submit" id="confirmInput"/>
-            <!-- 确定按钮简化为一个小圆圈。 -->
+            <!-- 按钮简化为一个小圆圈 -->
           </form>
         </div>
         <div class="iconBackBoxAll">
-          <!-- 每一个网站入口包含两个信息，图片和名称。 -->
-          <!-- 在href中填写网站的地址，p标签中填写名字。 -->
-          <!-- 不涉及JavaScript的话，建议使用a标签实现链接。 -->
+          <!-- 网站入口 -->
           <a class="iconBackBox" href="https://www.bilibili.com/">
             <img src="icon/bilibili.png" alt="">
-            <!-- src是图片的地址，alt是图片无法显示时的文字 -->
+            <!-- src图片，alt图片无法显示时的文字 -->
             <div>
               <p>bilibili</p>
             </div>
@@ -56,7 +54,7 @@
           </a>
           <a class="iconBackBox" href="https://www.youtube.com/">
             <img src="icon/YouTube.png" alt="">
-            <div>
+            <div>/
               <p>YouTube</p>
             </div>
           </a>
@@ -75,11 +73,11 @@
         </div>
       </div>
     </div>
-    <!-- 下面是添加和删除的按钮，这里暂未实现功能，先放这里配个像。不想要可以删除 -->
+    <!-- 添加和删除的按钮（未完成） -->
     <div class="setButtonBox">
       <button type="button" name="button" autocomplete="off" id="addBut"></button>
       <button type="button" name="button" autocomplete="off" id="deleteBut"></button>
     </div>
-    <!-- 以下是JavaScript文件 （还没写）-->
+    <!-- 以下是JavaScript文件（未完成） -->
   </body>
 </html>
