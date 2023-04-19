@@ -37,6 +37,16 @@ body {
 }
 
 /*
+ * 时间布局
+ */
+
+.time {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+}
+
+/*
  * 以下是有关的搜索框的布局
  */
 
@@ -75,22 +85,21 @@ body {
 }
 #confirmInput {
   /* 把确认按钮变成黑色边框小圆圈 */
-  width: 5%;
   height: 20px;
   width: 20px;
-  background-color: white;
+  background-color: rgb(0, 241, 217);
   position: absolute;
   right: 10;
   top: 50%;
   margin-top: -10px;
-  border-radius: 50%;
+  border-radius: 10%;
   border-color: black;
   border-width: thick;
   border-style: solid;
   outline: none;
 }
 #confirmInput:hover {
-  /* 鼠标悬停到确认按钮上变成小手手 */
+  /* 鼠标悬停到确认按钮上变成选择指针 */
   cursor: pointer;
 }
 
