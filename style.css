@@ -20,17 +20,18 @@ body {
 
 /* 两个盒子的属性主要是为了进行定位 */
 .backgroundBox1 {
-  background-color: inherit;
-  width: 600px;
-  height: 400px;
+  background-color:beige;
+  width: 560px;
+  height: 430px;
   position: absolute;
   left: 50%;
   margin-left: -300px;
   top: 50%;
   margin-top: -200px;
+  border-radius: 8%;
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.5);
 }
 .backgroundBox2 {
-  background-color: inherit;
   width: inherit;
   height: inherit;
   position: relative;
@@ -43,6 +44,20 @@ body {
 .time {
   text-align: center;
   color: #6B6B6B;
+  margin-top: 30px;
+}
+
+/*
+ *背景视频
+ */
+
+#backgroundVideo {
+  position: fixed;
+  object-fit: cover;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 /*
@@ -59,6 +74,7 @@ body {
   position: absolute;
   width: 500px;
   height: 40px;
+  background-color: bisque;
   /* 盒子居中 */
   top: 50%;
   margin-top: -20px;
@@ -70,15 +86,14 @@ body {
   /* 第一个阴影为白色，向左和上移动。 */
   /* 第二个阴影为黑色，向右和下移动。 */
   /* 参数分别为：x方向偏移 y方向偏移 阴影模糊半径 颜色 */
-  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2),
-   -12px -12px 20px rgba(255, 255, 255, 1);
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2);
 }
 /* 注意：这里是搜索框的样式，和网站入口按钮不同，没有鼠标悬停点击等状态效果。 */
 #searchInput {
   width: 90%;
   height: inherit;
   margin-left: 20px;
-  background-color: inherit;
+  background-color:bisque;
   /* outline用来清除点击搜索框的时候出现一个黑色小边框 */
   outline: none;
 }
@@ -97,6 +112,7 @@ body {
   border-width: 2px;
   border-style: solid;
   outline: none;
+
 }
 #confirmInput:hover {
   /* 鼠标悬停到确认按钮上变成选择指针 */
@@ -117,7 +133,7 @@ body {
   height: 70%;
 }
 .iconBackBoxAll>a {
-  background-color: inherit;
+  background-color: bisque;
   position: relative;
   /* 使用左浮动来布局 */
   float: left;
@@ -125,8 +141,7 @@ body {
   height: 80px;
   margin: 20px;
   border-radius: 20%;
-  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2),
-   -12px -12px 20px rgba(255, 255, 255, 1);
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2);
   /* 小手手 */
   cursor: pointer;
   /* 动画，阴影过度，做出一个纸面下凹的效果。 */
@@ -176,13 +191,11 @@ body {
    */
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
    0px 0px 0px rgba(255, 255, 255, 1),
-  12px 12px 20px rgba(0, 0, 0, 0.2) inset,
-   -12px -12px 20px rgba(255, 255, 255, 1) inset;
+  12px 12px 20px rgba(0, 0, 0, 0.2) inset;
 }
 .iconBackBoxAll>a:active {
   /* 点击时改变样式，加深效果 */
-   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2) inset,
-    -10px -10px 30px rgba(255, 255, 255, 1) inset;
+   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2) inset;
 }
 
 
@@ -190,36 +203,13 @@ body {
  * 下面是对于增加和删除按钮的属性设置
  */
 
- /* 这里两个按钮没有功能，在删除html文件中的两个按钮的同时，可以选择删除这里的样式 */
- /* 具体的思路和网站入口一样 */
-.setButtonBox {
-  /* background-color: red; */
-  position: fixed;
-  right: 100px; bottom: 50px;
-}
-.setButtonBox button{
-  width: 40px;
-  height: 40px;
-  margin: 15px;
-  border-radius: 50%;
-  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2),
-   -12px -12px 20px rgba(255, 255, 255, 1);
-  cursor: pointer;
-  outline: none;
-  transition: all .2s ease;
-}
 #addBut {
   background-image: url(icon/addButton.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
-.setButtonBox button:hover{
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
-   0px 0px 0px rgba(255, 255, 255, 1),
-  12px 12px 20px rgba(0, 0, 0, 0.2) inset,
-   -12px -12px 20px rgba(255, 255, 255, 1) inset;
-}
+
 #deleteBut {
   background-image: url(icon/delete.png);
   background-position: center;
