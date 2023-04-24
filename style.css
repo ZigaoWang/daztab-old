@@ -30,7 +30,7 @@ body {
   margin-top: -200px;
   border-radius: 8%;
   box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.5);
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2) inset;
 }
 .backgroundBox2 {
   width: inherit;
