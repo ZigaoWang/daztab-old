@@ -8,15 +8,6 @@
       <source src="video/bv.mov" type="video/mp4">
     </video>
   </head>
-  <!-- 谷歌分析 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P6HQ6RCD8J"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-P6HQ6RCD8J');
-</script>
   <body>
     <div class="backgroundBox1">
       <div class="backgroundBox2">
@@ -25,9 +16,9 @@
           <script src="time.js"></script>
         <!-- backgroundFormStyle搜索框 -->
         <div id="backgroundFormStyle">
-          <form action="https://www.google.com/search" id="searchForm" method="get" name="searchform" target="_blank">
+          <form action="https://www.google.com/search?q=" id="searchForm" method="get" name="searchform" target="_blank">
             <input type="text" name="q" placeholder="搜索" id="searchInput" autocomplete="off"/>
-            <input type="image" src="icon/search.png" alt="Search" id="confirmInput"/>
+            <input type="image" src="icon/search.png" alt="Search" id="confirmInput"
             <!-- 按钮 -->
           </form>
         </div>
@@ -90,6 +81,5 @@
       <button type="button" name="button" autocomplete="off" id="addBut"></button>
       <button type="button" name="button" autocomplete="off" id="deleteBut"></button>
     </div>
-    <!-- 以下是JavaScript文件（未完成） -->
   </body>
 </html>
