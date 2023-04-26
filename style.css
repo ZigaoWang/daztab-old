@@ -21,17 +21,30 @@ body {
 /* 两个盒子的属性主要是为了进行定位 */
 .backgroundBox1 {
   background-color:#f5f5dc;
-  width: 560px;
+  width: 650px;
   height: 430px;
   position: absolute;
-  left: 50%;
+  left: 49%;
   margin-left: -300px;
   top: 50%;
   margin-top: -200px;
   border-radius: 8%;
   box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.5);
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2) inset;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
+
+.backgroundBox1:hover {
+  background-color:#e8e88e;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
+
 .backgroundBox2 {
   width: inherit;
   height: inherit;
@@ -46,7 +59,19 @@ body {
   text-align: center;
   color: #6B6B6B;
   margin-top: 30px;
+  animation: fadeIn 2.8s;
+  font-size: 30px;
+  -webkit-transition: color 1s, font-size 1s;
+  -moz-transition: color 1s, font-size 1s;
+  -o-transition: color 1s, font-size 1s;
+  transition: color 1s, font-size 1s;
 }
+
+.time:hover {
+  font-size: 35px;
+  color: #353434;
+}
+
 
 /*
  *背景视频
@@ -57,8 +82,36 @@ body {
   object-fit: cover;
   right: 0;
   bottom: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  animation: fadeIn 0.5s;
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#backgroundVideo:hover {
+  width: 105%;
+  height: 105%;
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+
+#backgroundVideo:active {
+  width: 120%;
+  height: 120%;
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
 }
 
 /*
@@ -88,7 +141,21 @@ body {
   /* 第二个阴影为黑色，向右和下移动。 */
   /* 参数分别为：x方向偏移 y方向偏移 阴影模糊半径 颜色 */
   box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
+
+#searchForm:hover {
+  width: 584px;
+  left: 43%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
 /* 注意：这里是搜索框的样式，和网站入口按钮不同，没有鼠标悬停点击等状态效果。 */
 #searchInput {
   width: 90%;
@@ -98,6 +165,7 @@ body {
   /* outline用来清除点击搜索框的时候出现一个黑色小边框 */
   outline: none;
 }
+
 #confirmInput {
   /* 把确认按钮变成黑色边框小圆圈 */
   width: 5%;
@@ -189,6 +257,7 @@ body {
    0px 0px 0px rgba(255, 255, 255, 1),
   12px 12px 20px rgba(0, 0, 0, 0.2) inset;
 }
+
 .iconBackBoxAll>a:active {
   /* 点击时改变样式，加深效果 */
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3) inset;
@@ -210,4 +279,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+/*
+ *
+ */
+
+.copyrightOwner {
+  background-position: bottom center;
+  color: #6B6B6B;
+  margin-top: 30px;
+  ;
 }
