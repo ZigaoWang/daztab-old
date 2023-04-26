@@ -45,6 +45,14 @@ body {
   transition: all 2s;
 }
 
+.backgroundBox1:active {
+  background-color:#c5c546;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
+
 .backgroundBox2 {
   width: inherit;
   height: inherit;
