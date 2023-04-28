@@ -30,11 +30,11 @@ body {
 }
 
 #runtime_span:hover {
-  font-size: 13px;
+  font-size: 11px;
 }
 
 #runtime_span:active {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .copyrightOwner {
