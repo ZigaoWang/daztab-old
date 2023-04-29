@@ -190,10 +190,19 @@ body {
 #backgroundVideo:hover {
   width: 105%;
   height: 105%;
+  cursor: url(cursor/precision.cur), auto;
   -webkit-transition: all 3s;
   -moz-transition: all 3s;
   -o-transition: all 3s;
   transition: all 3s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
 }
 
 #backgroundVideo:active {
