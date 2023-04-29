@@ -14,15 +14,44 @@ body {
   user-select:none;
 }
 
+.logo {
+  height: 130px;
+  width: 130px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  top: -12px;
+  animation: fadeIn 1.8s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.logo:hover {
+  height: 160px;
+  width: 160px;
+  top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo:active {
+  height: 190px;
+  width: 190px;
+  top: -40px;
+}
+
 #runtime_span {
   color: white;
   text-align: center;
   position: absolute;
   bottom: 0;
-  left: 51%;
+  left: 50.8%;
   transform: translate(-50%, -50%);
   animation: fadeIn 2.8s;
-  font-size: 10px;
+  font-size: 7px;
   -webkit-transition: font-size 1s;
   -moz-transition: font-size 1s;
   -o-transition: font-size 1s;
@@ -30,22 +59,22 @@ body {
 }
 
 #runtime_span:hover {
-  font-size: 11px;
+  font-size: 8px;
 }
 
 #runtime_span:active {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .copyrightOwner {
   color: white;
   text-align: center;
   position: absolute;
-  bottom: 2%;
-  left: 51%;
+  bottom: 10px;
+  left: 50.8%;
   transform: translate(-50%, -50%);
   animation: fadeIn 2.8s;
-  font-size: 12px;
+  font-size: 8px;
   -webkit-transition: font-size 1s;
   -moz-transition: font-size 1s;
   -o-transition: font-size 1s;
@@ -72,7 +101,7 @@ body {
 /* 两个盒子的属性主要是为了进行定位 */
 .backgroundBox1 {
   background-color:#f5f5dc;
-  width: 650px;
+  width: 645px;
   height: 430px;
   position: absolute;
   left: 49%;
@@ -348,7 +377,3 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-/*
- *
- */
