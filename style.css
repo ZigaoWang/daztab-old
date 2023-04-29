@@ -12,6 +12,7 @@ body {
   -ms-user-select:none;/*IE10*/
   -khtml-user-select:none;/*早期浏览器*/
   user-select:none;
+  cursor: url('cursor/pointer.cur'),auto;
 }
 
 .logo {
@@ -91,6 +92,7 @@ body {
 
 .links {
   color: aqua;
+  cursor: url('cursor/link.cur'), auto;
 }
 
 
@@ -261,6 +263,7 @@ body {
   background-color:bisque;
   /* outline用来清除点击搜索框的时候出现一个黑色小边框 */
   outline: none;
+  cursor: url('cursor/beam.cur'), text;
 }
 
 #confirmInput {
@@ -277,7 +280,7 @@ body {
 }
 #confirmInput:hover {
   /* 鼠标悬停到确认按钮上变成选择指针 */
-  cursor: pointer;
+  cursor: url('cursor/link.cur'), auto;
 }
 
 /*
@@ -304,7 +307,7 @@ body {
   border-radius: 20%;
   box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2);
   /* 小手手 */
-  cursor: pointer;
+  cursor: url(cursor/link.cur), pointer;
   /* 动画，阴影过度，做出一个纸面下凹的效果。 */
   /* 参数：需要改变的样式（all是所有）  改变的时间  速度函数 */
   /* 注意注意注意！！！！
