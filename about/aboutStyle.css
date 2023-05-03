@@ -1,0 +1,23 @@
+*{
+  /* 清除所有的padding、margin和border */
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: #EFEEEE;
+  /* 长按鼠标并滑动的时候回选中框内的内容，这里禁止选中所有文本。 */
+  -moz-user-select:none;/*火狐*/
+  -webkit-user-select:none;/*webkit浏览器*/
+  -ms-user-select:none;/*IE10*/
+  -khtml-user-select:none;/*早期浏览器*/
+  user-select:none;
+  cursor: url('.../cursor/pointer.cur'),auto;
+}
+
+.license {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
