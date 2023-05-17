@@ -1,2 +1,3 @@
-# pitaya-start
-Pitaya.Cyou Start Page
+# Pitaya.Cyou Start Page
+
+Please visit https://pitaya.cyou.
