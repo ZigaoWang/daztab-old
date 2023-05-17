@@ -24,14 +24,14 @@ const mouseeeConfig = {
 }
 
 .logo {
-  height: 130px;
-  width: 130px;
+  height: 97.2px;
+  width: 128px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  top: -12px;
-  animation: fadeIn 1.8s;
+  top: 15px;
+  animation: fadeIn 3.2s;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
@@ -39,17 +39,17 @@ const mouseeeConfig = {
 }
 
 .logo:hover {
-  height: 160px;
+  height: 120px;
   width: 160px;
-  top: -25px;
+  top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .logo:active {
-  height: 190px;
+  height: 140px;
   width: 190px;
-  top: -40px;
+  top: 30px;
 }
 
 #runtime_span {
@@ -180,7 +180,7 @@ const mouseeeConfig = {
   text-align: center;
   color: #6B6B6B;
   margin-top: 30px;
-  animation: fadeIn 2.8s;
+  animation: fadeIn 3.2s;
   font-size: 30px;
   -webkit-transition: color 1s, font-size 1s;
   -moz-transition: color 1s, font-size 1s;
@@ -206,7 +206,7 @@ const mouseeeConfig = {
   width: 100%;
   height: 100%;
   display: inline-block;
-  animation: fadeIn 0.5s;
+  animation: fadeIn 0.3s;
   -webkit-transition: all 3s;
   -moz-transition: all 3s;
   -o-transition: all 3s;
@@ -268,6 +268,7 @@ const mouseeeConfig = {
   width: 500px;
   height: 40px;
   background-color: bisque;
+  animation: fadeIn 1s;
   /* 盒子居中 */
   top: 50%;
   margin-top: -20px;
@@ -335,6 +336,7 @@ const mouseeeConfig = {
   bottom: 0;
   width: 480px;
   height: 70%;
+  animation: fadeIn 1s;
 }
 .iconBackBoxAll>a {
   background-color: bisque;
