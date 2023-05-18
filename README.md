@@ -13,7 +13,7 @@ You can download and install Pitaya Start Page from the Chrome Web Store or Fire
 Once installed, simply open a new tab to use Pitaya Start Page. You can customize your dashboard settings, including adding or removing favorite websites, changing the weather location and units, and enabling or disabling other features.
 
 
-# Features
+## Features
 
 - Replaces your new tab page with a beautiful and streamlined dashboard
 
@@ -24,11 +24,11 @@ Once installed, simply open a new tab to use Pitaya Start Page. You can customiz
 - Provides a distraction-free browsing environment to help you focus
 
 
-# Contributions
+## Contributions
 
 If you encounter any issues or have any suggestions while using Pitaya Start Page, feel free to submit an issue or pull request on GitHub or contact me through: *z@zigao.xyz*
 
 
-# License
+## License
 
 Pitaya Start Page is released under the Apache 2.0 License. Please see the LICENSE file for more information.
