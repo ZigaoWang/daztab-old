@@ -2,6 +2,16 @@
 
 All notable changes to the project "Pitaya.Cyou Start Page" or "Pitaya Start" will be documented in this file.
 
+## [1.5.1] - 2023-05-18
+
+### Added
+
+- Added the click effect of time element
+
+### Fixed
+
+- Fixed the logo size issue on smaller screens
+
 ## [1.5.0] - 2023-05-17
 
 ### Added
@@ -129,8 +139,3 @@ All notable changes to the project "Pitaya.Cyou Start Page" or "Pitaya Start" wi
 - Pitaya Homepage is online!
 - Basic layout.
 - CNAME file to enable GitHub Pages custom domain.
-
-[Source Code]
-
-- Google Drive: https://drive.google.com/file/d/1y-C-v_xOyvMqy1APMoLfn3AZKVrBltxI/view?usp=sharing
-- Personal NAS Server: https://apps.lexar.com/s/8AeH5GVu
