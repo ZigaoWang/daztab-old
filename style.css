@@ -24,8 +24,8 @@ const mouseeeConfig = {
 }
 
 .logo {
-  height: 97.2px;
-  width: 128px;
+  height: 8%;
+  width: 8%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -39,17 +39,17 @@ const mouseeeConfig = {
 }
 
 .logo:hover {
-  height: 120px;
-  width: 160px;
-  top: 20px;
+  height: 9%;
+  width: 9%;
+  top: 13px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .logo:active {
-  height: 140px;
-  width: 190px;
-  top: 30px;
+  height: 9.5%;
+  width: 9.5%;
+  top: 10px;
 }
 
 #runtime_span {
@@ -193,6 +193,9 @@ const mouseeeConfig = {
   color: #353434;
 }
 
+.time:active {
+  color: #0b60aa;
+}
 
 /*
  *背景视频
