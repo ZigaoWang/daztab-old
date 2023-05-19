@@ -1,6 +1,7 @@
 # Pitaya Start Page
 
 [简体中文](/README_cn.md)
+[Français](/README_fr.md)
 
 Pitaya Start Page is a browser extension that replaces your new tab page with a beautiful and streamlined dashboard. With Pitaya Start Page, you can easily access your favorite websites and check the weather, all without leaving your browser. This extension is designed to help you save time and effort while you surf the web. Whether you're a casual user or a power user, Pitaya Start Page is the perfect tool to help you get more done in less time. In addition, Pitaya Start Page can help you focus by providing a distraction-free environment for browsing.
 
