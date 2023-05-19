@@ -2,39 +2,50 @@
 
 All notable changes to the project "Pitaya.Cyou Start Page" or "Pitaya Start" will be documented in this file.
 
+## [1.5.2] - 2023-05-19
+
+### Added
+
+- Added README file for Chinese.
+- Added README file for French.
+
+### Changed
+
+- Changed the README file into a more descriptive version.
+
 ## [1.5.1] - 2023-05-18
 
 ### Added
 
-- Added the click effect of time element
+- Added the click effect of time element.
 
 ### Fixed
 
-- Fixed the logo size issue on smaller screens
+- Fixed the logo size issue on smaller screens.
 
 ## [1.5.0] - 2023-05-17
 
 ### Added
 
-- Added several elements' fade in transition
+- Added several elements' fade in transition.
 
 ### Changed
 
-- Changed the logo of Pitaya.Cyou Start Page
-- Changed the name from "Pitaya Homepage" to "Pitaya.Cyou Start Page", or simplified as "Pitaya Start" Page
+- Changed the logo of Pitaya.Cyou Start Page.
+- Changed the name from "Pitaya Homepage" to "Pitaya.Cyou Start Page", or simplified as "Pitaya Start" Page.
 
 ### Fixed
 
-- Fixed several elements animations browsers compatibility problem
-- Fixed known bugs
+- Fixed several elements animations browsers compatibility problem.
+- Fixed known bugs.
 
 ## [1.4.0] - 2023-05-03
 
 ### Added
 
-- Added mouse trail effect
-- Added About page
-- Added License
+- Added mouse trail effect.
+- Added About page.
+- Added Apache 2.0 License Page.
 
 ## [1.3.0] - 2023-04-29
 
