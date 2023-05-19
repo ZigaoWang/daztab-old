@@ -1,5 +1,11 @@
 # Pitaya Start Page
 
+![GitHub](https://img.shields.io/github/license/ZigaoWang/pitaya-start)
+![GitHub repo size](https://img.shields.io/github/repo-size/ZigaoWang/pitaya-start)
+![GitHub last commit](https://img.shields.io/github/last-commit/ZigaoWang/pitaya-start)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/ZigaoWang/pitaya-start)
+![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fpitaya.cyou)
+
 [简体中文](/README_zh.md)
 [Français](/README_fr.md)
 
