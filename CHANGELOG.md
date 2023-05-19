@@ -2,6 +2,11 @@
 
 All notable changes to the project "Pitaya.Cyou Start Page" or "Pitaya Start" will be documented in this file.
 
+## Unreleased Features *(May be added in the future)*
+
+- Weather widget.
+- User-customizable website bookmarks.
+
 ## [1.5.2] - 2023-05-19
 
 ### Added
