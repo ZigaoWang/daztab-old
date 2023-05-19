@@ -17,6 +17,8 @@ All notable changes to the project "Pitaya.Cyou Start Page" or "Pitaya Start" wi
 ### Changed
 
 - Changed the README file into a more descriptive version.
+- Changed the mouse trail effect's config file's location for better access speed.
+- Changed the mouse trail effect colors to the logo theme color.
 
 ## [1.5.1] - 2023-05-18
 
