@@ -1,4 +1,4 @@
-# Pitaya Start Page
+# Daztab
 
 ![GitHub](https://img.shields.io/github/license/ZigaoWang/daztab)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ZigaoWang/daztab)
