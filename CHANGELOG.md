@@ -1,11 +1,24 @@
 # Changelog
 
-All notable changes to the project "Pitaya.Cyou Start Page" or "Pitaya Start" will be documented in this file.
+All notable changes to the project "Daztab" will be documented in this file.
 
 ## Unreleased Features *(May be added in the future)*
 
 - Weather widget.
 - User-customizable website bookmarks.
+- More README file languages.
+
+## [1.6.0] - 2023-05-21
+
+### Changed
+
+- Changed the name of "Pitaya.Cyou Start Page" to "Daztab".
+- Changed the domain of "Daztab" from https://pitaya.cyou to https://daztab.com.
+- Changed the Chinese name into "光标".
+
+### Removed
+
+- Removed the French translation of README file.
 
 ## [1.5.2] - 2023-05-19
 
@@ -19,6 +32,10 @@ All notable changes to the project "Pitaya.Cyou Start Page" or "Pitaya Start" wi
 - Changed the README file into a more descriptive version.
 - Changed the mouse trail effect's config file's location for better access speed.
 - Changed the mouse trail effect colors to the logo theme color.
+
+### Source Code
+
+https://github.com/ZigaoWang/pitaya-start/releases/tag/v1.5.2
 
 ## [1.5.1] - 2023-05-18
 
