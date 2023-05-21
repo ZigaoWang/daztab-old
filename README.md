@@ -8,7 +8,6 @@
 ![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fdaztab.com)
 
 [简体中文](/README_zh.md)
-[Français](/README_fr.md)
 
 Daztab is a browser extension that replaces your new tab page with a beautiful and streamlined dashboard. With Daztab, you can easily access your favorite websites and check the weather, all without leaving your browser. This extension is designed to help you save time and effort while you surf the web. Whether you're a casual user or a power user, Daztab is the perfect tool to help you get more done in less time. In addition, Daztab can help you focus by providing a distraction-free environment for browsing.
 
