@@ -36,6 +36,10 @@ Once installed, simply open a new tab to use Daztab. You can customize your dash
 
 If you encounter any issues or have any suggestions while using Daztab, feel free to submit an issue or pull request on GitHub or contact me through: *z@zigao.xyz*
 
+## Changelog
+
+The [CHANGELOG](/CHANGELOG.md) file in Daztab provides a concise summary of changes and updates to the browser extension. It helps users and developers track the evolution of Daztab, including new features, bug fixes, and performance enhancements.
+
 ## License
 
 Daztab is released under the Apache 2.0 License. Please see the [LICENSE](/LICENSE) file for more information.
