@@ -32,4 +32,4 @@ If you encounter any issues or have any suggestions while using Daztab, feel fre
 
 ## License
 
-Daztab is released under the Apache 2.0 License. Please see the [LICENSE](/LICENSE.md) file for more information.
+Daztab is released under the Apache 2.0 License. Please see the [LICENSE](/LICENSE) file for more information.
