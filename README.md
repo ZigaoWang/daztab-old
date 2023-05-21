@@ -9,7 +9,7 @@
 
 [简体中文](/README_zh.md)
 
-## Unreleased Features *(May be added in the future)*
+### Unreleased Features *(May be added in the future)*
 
 - Weather widget.
 - User-customizable website bookmarks.
