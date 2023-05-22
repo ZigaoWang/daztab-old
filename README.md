@@ -1,11 +1,11 @@
 # Daztab - *Browse with Ease*
 
+![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fdaztab.com)
 ![GitHub](https://img.shields.io/github/license/ZigaoWang/daztab)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ZigaoWang/daztab)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ZigaoWang/daztab)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ZigaoWang/daztab)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/ZigaoWang/daztab)
-![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fdaztab.com)
 
 [简体中文](/README_zh.md)
 
