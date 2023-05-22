@@ -7,6 +7,28 @@ All notable changes to the project "Daztab" will be documented in this file.
 - Weather widget.
 - User-customizable website bookmarks.
 - More README file languages.
+- More amazing background videos.
+
+## [1.7.0] - 2023-05-23
+
+### Added
+
+- Added logo background color.
+- Added logo hover and click effect.
+
+### Changed
+
+- Changed the logo of "Daztab".
+- Changed the language of the runtime of the website text from Chinese to English.
+- Changed the text weight of the text in the footer bar into bold.
+- Changed the border radius of the box element into a rounder circle.
+
+## [1.6.1] - 2023-05-22
+
+### Added
+
+- Added LICENSE file link in README file.
+- Added CHANGELOG file link and introduction in README file.
 
 ## [1.6.0] - 2023-05-21
 
