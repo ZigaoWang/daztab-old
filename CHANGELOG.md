@@ -20,6 +20,7 @@ All notable changes to the project "Daztab" will be documented in this file.
 - Changed the mouse trail color into theme color.
 - Changed the size of the cursor.
 - Changed the websites of the buttons into the author's favorite website.
+- Changed the website runtime start time into a more accurate time.
 
 ## [1.7.0] - 2023-05-22
 
