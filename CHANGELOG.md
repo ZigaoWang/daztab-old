@@ -8,6 +8,18 @@ All notable changes to the project "Daztab" will be documented in this file.
 - User-customizable website bookmarks.
 - More README file languages.
 - More amazing background videos.
+- Upload Daztab on Chrome Web Store.
+
+## [1.7.2] - 2023-05-24
+
+### Added
+
+- Added favicon for the website.
+- Added favicon for the chrome extension (Unreleased feature).
+
+### Changed
+
+- Changed the hover and click effect of the background box into the green theme color.
 
 ## [1.7.1] - 2023-05-23
 
