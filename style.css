@@ -13,6 +13,7 @@ body {
   -khtml-user-select:none;/*早期浏览器*/
   user-select:none;
   cursor: url('cursor/pointer.cur'),auto;
+  background-image: url('image/bg.jpg');
 }
 
 .logo {
