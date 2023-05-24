@@ -152,7 +152,7 @@ body {
 }
 
 .backgroundBox1:hover {
-  background-color:#e8e88e;
+  background-color: #a8e9b1;
   -webkit-transition: all 2s;
   -moz-transition: all 2s;
   -o-transition: all 2s;
@@ -160,7 +160,7 @@ body {
 }
 
 .backgroundBox1:active {
-  background-color:#c5c546;
+  background-color: #6fca3a;
   -webkit-transition: all 2s;
   -moz-transition: all 2s;
   -o-transition: all 2s;
