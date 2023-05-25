@@ -9,6 +9,19 @@ All notable changes to the project "Daztab" will be documented in this file.
 - More README file languages.
 - More amazing background videos.
 - Upload Daztab on Chrome Web Store.
+- Serve images in next-gen formats such as WebP.
+- Serve images that are appropriately-sized to improve load time.
+- Use 1st Party resources.
+- Add accessible names for buttons.
+- Add high contrast mode.
+- Reduce the time element's loading time.
+
+## [1.7.3] - 2023-05-25
+
+### Added
+
+- Added page cache settings to improve loading speed.
+- Added <meta name="viewport"> tag to optimize the website for mobile users.
 
 ## [1.7.2] - 2023-05-24
 
