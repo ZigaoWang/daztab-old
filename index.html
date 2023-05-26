@@ -4,9 +4,6 @@
     <meta charset="utf-8">
     <title>Daztab | Browse with Ease</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <video autoplay muted loop id="backgroundVideo">
-      <source src="video/bv.mp4" type="video/mp4">
-    </video>
     <meta http-equiv="Cache-Control" content="max-age=2592000, public">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- favicon设置 -->
@@ -23,7 +20,19 @@
   </head>
   <body>
     <!--logo-->
-    <img src="Logo.png" alt="Daztab" class="logo">
+    <label class="switch">
+      <input type="checkbox" id="video-toggle">
+      <span class="slider"></span>
+    </label>
+    <div id="backgroundContainer">
+      <img src="image/bg.jpg" id="backgroundImage" alt="Background Image">
+      <video src="video/bv.mp4" id="backgroundVideo" autoplay loop mute></video>
+      <label for="toggleSwitch">
+        <input type="checkbox" id="toggleSwitch">
+        <span id="toggleSlider"></span>
+      </label>
+    </div>
+    <script src="video-switch.js"></script>
     <div class="backgroundBox1">
       <div class="backgroundBox2">
         <!-- 显示时间 -->
@@ -91,33 +100,11 @@
         </div>
       </div>
     </div>
-    <!-- 添加和删除的按钮（未完成） -->
-    <div class="setButtonBox">
-      <button type="button" name="button" autocomplete="off" id="addBut"></button>
-      <button type="button" name="button" autocomplete="off" id="deleteBut"></button>
-    </div>
   <p class="about" href="about/index.html" target="_blank" title="Zigao Wang Personal Website">About</p>
 	<h1 class="copyrightOwner">© 2023 <a href="https://zigao.xyz" title="Zigao Wang Personal Website" target="_blank" class="links">Zigao Wang</a></h1>
 	</div>
   <span id="runtime_span">
-    <script type="text/javascript">
-      function show_runtime() {
-        window.setTimeout("show_runtime()", 1000);
-        X = new Date("04/15/2023 19:35:19");
-        Y = new Date();
-        T = (Y.getTime() - X.getTime());
-        M = 24 * 60 * 60 * 1000;
-        a = T / M;
-        A = Math.floor(a);
-        b = (a - A) * 24;
-        B = Math.floor(b);
-        c = (b - B) * 60;
-        C = Math.floor((b - B) * 60);
-        D = Math.floor((c - C) * 60);
-        runtime_span.innerHTML = "Website Runtime: " + A + "&nbspDays&nbsp" + B + "&nbspHours&nbsp" + C + "&nbspMinutes&nbsp" + D + "&nbspSeconds"
-      }
-      show_runtime();
-      </script>
-    </span>
+    <script src="runtime.js"></script>
+  </span>  
   </body>
 </html>
