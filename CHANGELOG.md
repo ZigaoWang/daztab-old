@@ -27,7 +27,6 @@ All notable changes to the project "Daztab" will be documented in this file.
 
 - Improved the code structure and organized it.
 - Deleteted unnecessary code to imcrease page loading speed.
-- Changed some files' path.
 
 ## [1.7.3] - 2023-05-25
 
