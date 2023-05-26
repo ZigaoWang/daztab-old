@@ -16,6 +16,19 @@ All notable changes to the project "Daztab" will be documented in this file.
 - Add high contrast mode.
 - Reduce the time element's loading time.
 
+## [1.7.4] - 2023-05-26
+
+### Added
+
+- Added a toggle switch to change the background video into an image.
+- Added a hover and click blur effect for background image.
+
+### Changed
+
+- Improved the code structure and organized it.
+- Deleteted unnecessary code to imcrease page loading speed.
+- Changed some files' path.
+
 ## [1.7.3] - 2023-05-25
 
 ### Added
