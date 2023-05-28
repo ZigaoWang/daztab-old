@@ -13,7 +13,7 @@
 
 ## Installation
 
-You can download and install Daztab from the Chrome Web Store or Firefox Add-ons Store.
+You can download and install Daztab from the Chrome Web Store or Firefox Add-ons Store (Unrealease feature).
 
 ## How to Use
 
