@@ -13,9 +13,11 @@
     -khtml-user-select:none;/*早期浏览器*/
     user-select:none;
     cursor: url('cursor/pointer.cur'),auto;
+    overflow: hidden;
   }
 
   .logo {
+    z-index: 1;
     height: 10%;
     width: 10%;
     position: relative;
@@ -265,34 +267,51 @@
     transform: scale(1);
   }
 
-  #toggleSwitch {
-    display: none;
-  }
-  
-  #toggleSlider {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-    background-color: #ccc;
-    border-radius: 34px;
-  }
-  
-  #toggleSlider:before {
-    content: "";
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    border-radius: 50%;
-    background-color: white;
-    top: 4px;
-    left: 4px;
-    transition: transform 0.2s;
-  }
-  
-  #toggleSwitch:checked + #toggleSlider:before {
-    transform: translateX(26px);
-  }
+/* 定义开关按钮的样式 */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* 定义开关按钮的滑块样式 */
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* 定义开关按钮的圆形滑块样式 */
+.switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* 定义开关按钮的绿色样式 */
+.switch input:checked + .slider {
+  background-color: green;
+}
+
+/* 定义开关按钮的绿色滑块样式 */
+.switch input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
 
   #backgroundVideo {
     display: none; /* 默认隐藏视频 */
