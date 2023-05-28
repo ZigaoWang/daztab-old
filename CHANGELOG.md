@@ -27,7 +27,7 @@ All notable changes to the project "Daztab" will be documented in this file.
 
 - Improved the code structure and organized it.
 - Deleteted unnecessary code to imcrease page loading speed.
-- Took out the JavaScript code from the index.html file and put it into a seperate runtime.js file.
+- Took out the JavaScript code from the [index.html](/index.html) file and put it into a seperate [runtime.js](/runtime.js) file.
 
 ## [1.7.3] - 2023-05-25
 
