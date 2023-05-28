@@ -17,7 +17,7 @@ You can download and install Daztab from the Chrome Web Store or Firefox Add-ons
 
 ## How to Use
 
-Once installed, simply open a new tab to use Daztab. You can customize your dashboard settings, including adding or removing favorite websites, changing the weather location and units, and enabling or disabling other features.
+Once installed, simply open a new tab to use Daztab. You can customize your dashboard settings, including adding or removing favorite websites, changing the weather location and units, and enabling or disabling other features *(Unreleased features)*.
 
 ## Features
 
