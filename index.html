@@ -20,6 +20,8 @@
   </head>
   <body>
     <!--logo-->
+    <img src="Logo.png"  class="logo" alt="Daztab | Browse with Ease">
+    <!--背景视频和背景图片切换开关-->
     <label class="switch">
       <input type="checkbox" id="video-toggle">
       <span class="slider"></span>
@@ -27,10 +29,10 @@
     <div id="backgroundContainer">
       <img src="image/bg.jpg" id="backgroundImage" alt="Background Image">
       <video src="video/bv.mp4" id="backgroundVideo" autoplay loop mute></video>
-      <label for="toggleSwitch">
-        <input type="checkbox" id="toggleSwitch">
-        <span id="toggleSlider"></span>
-      </label>
+      <label class="switch">
+        <input id="toggleSwitch" type="checkbox">
+        <span class="slider"></span>
+      </label>      
     </div>
     <script src="video-switch.js"></script>
     <div class="backgroundBox1">
