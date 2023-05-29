@@ -41,3 +41,7 @@ Daztab is released under the Apache 2.0 License. Please see the [LICENSE](/LICEN
 ## Status
 
 If you are experiencing issues accessing the website, please check the status of the website at our [status page](http://status.daztab.com/) to determine if it's a problem with the website itself. If the status page shows no issues, try troubleshooting by clearing your browser cache, using a different browser or device, and testing your internet connection. If the problem persists, feel free to contact me at z@zigao.xyz for further assistance.
+
+## Donation
+
+Daztab is an open-source project developed with passion. If you value Daztab, consider making a donation to support its development. Your contribution fuels our motivation to improve Daztab and bring you more features. Join our community of supporters and shape the future of browsing. Visit our [donation page](https://www.buymeacoffee.com/zigao) to make a difference. Thank you for your generosity!
