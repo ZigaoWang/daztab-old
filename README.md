@@ -46,4 +46,4 @@ If you are experiencing issues accessing the website, please check the status of
 
 ## Donation
 
-Daztab is an open-source project developed with passion. If you value Daztab, consider making a donation to support its development. Your contribution fuels our motivation to improve Daztab and bring you more features. Join our community of supporters and shape the future of browsing. Visit our [donation page](https://www.buymeacoffee.com/zigao) to make a difference. Thank you for your generosity!
+Daztab is an open-source project developed with passion. If you value Daztab, consider making a donation to support its development. Your contribution fuels our motivation to improve Daztab and bring you more cool features that you will love! Join our community of supporters and shape the future of distraction-free browsing. Visit our [donation page](https://www.buymeacoffee.com/zigao) to make a difference. Thank you for your generosity!
