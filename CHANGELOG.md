@@ -21,7 +21,8 @@ All notable changes to the project "Daztab" will be documented in this file.
 ### Added
 
 - Added green color for the background toggle switch when it is opened.
-- Added website monitoring status page (Website: https://status.daztab.com, GitHub Repo: https://github.com/ZigaoWang/daztab-status) using Freshping.
+- Added a website monitoring status page (Website: https://status.daztab.com, GitHub Repo: https://github.com/ZigaoWang/daztab-status) using Freshping.
+- Added a [donation page](https://www.buymeacoffee.com/zigao) using Buy Me a Coffee.
 
 ### Fixed
 
