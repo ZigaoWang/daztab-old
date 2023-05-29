@@ -16,6 +16,18 @@ All notable changes to the project "Daztab" will be documented in this file.
 - Add high contrast mode.
 - Reduce the time element's loading time.
 
+## [1.7.5] - 2023-05-29
+
+### Added
+
+- Added green color for the background toggle switch when it is opened.
+- Added website monitoring status page (Website: https://status.daztab.com, GitHub Repo: https://github.com/ZigaoWang/daztab-status) using Freshping.
+
+### Fixed
+
+- Fixed the logo not showing up issue in some browsers.
+- Fixed the scrolling problem by disablling it.
+
 ## [1.7.4] - 2023-05-26
 
 ### Added
