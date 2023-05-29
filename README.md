@@ -6,6 +6,7 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ZigaoWang/daztab)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ZigaoWang/daztab)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/ZigaoWang/daztab)
+<a href="https://www.buymeacoffee.com/roniemartinez" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 [简体中文](/README_zh.md)
 
