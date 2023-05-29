@@ -27,7 +27,7 @@ All notable changes to the project "Daztab" will be documented in this file.
 ### Fixed
 
 - Fixed the logo not showing up issue in some browsers.
-- Fixed the scrolling problem by disablling it.
+- Fixed the scrolling problem by disabling it.
 
 ## [1.7.4] - 2023-05-26
 
