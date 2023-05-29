@@ -1,4 +1,4 @@
-# 光标
+# 光标 - *轻松浏览*
 
 ![GitHub](https://img.shields.io/github/license/ZigaoWang/daztab)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ZigaoWang/daztab)
