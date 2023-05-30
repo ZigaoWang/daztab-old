@@ -15,6 +15,18 @@ All notable changes to the project "Daztab" will be documented in this file.
 - Add accessible names for buttons.
 - Add high contrast mode.
 - Reduce the time element's loading time.
+- Load and cache the background video only when the user opened it in preference.
+
+## [1.7.6] - 2023-05-30
+
+### Added
+
+- Added local storage preference for the toggle switch of the background video.
+
+### Changed
+
+- Changed the name of the background video from bv.mp4 to video.mp4.
+- Improved the code and fixed any code issues.
 
 ## [1.7.5] - 2023-05-29
 
