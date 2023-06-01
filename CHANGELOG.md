@@ -17,6 +17,18 @@ All notable changes to the project "Daztab" will be documented in this file.
 - Reduce the time element's loading time.
 - Load and cache the background video only when the user opened it in preference.
 
+## [1.7.8] - 2023-06-01
+
+### Changed
+
+- Changed the background wallpaper into Bing wallpaper API using the open-source project: https://github.com/shangzhenyang/bing-wallpaper.
+
+## [1.7.7] - 2023-05-31
+
+### Changed
+
+- Changed the code in video-switch.js to cache the background video and autoplay when the switch is on.
+
 ## [1.7.6] - 2023-05-30
 
 ### Added
