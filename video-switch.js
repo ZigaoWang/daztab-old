@@ -52,3 +52,13 @@ function loadVideo() {
 window.addEventListener("DOMContentLoaded", function() {
   loadVideo();
 });
+
+var toggleSwitch = document.getElementById("toggleSwitch");
+
+toggleSwitch.addEventListener("change", function() {
+  if (toggleSwitch.checked) {
+    localStorage.setItem("videoEnabled", "true");
+  } else {
+    localStorage.setItem("videoEnabled", "false");
+  }
+});
