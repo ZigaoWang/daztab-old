@@ -40,6 +40,10 @@ The [CHANGELOG](/CHANGELOG.md) file in Daztab provides a concise summary of chan
 
 Daztab is released under the Apache 2.0 License. Please see the [LICENSE](/LICENSE) file for more information.
 
+## Privacy Policy
+
+Daztab do not collect any personal information, and we do not use cookies. For more information, please click [here](https://daztab.com/privacy.html) to see the privacy policy.
+
 ## Status
 
 If you are experiencing issues accessing the website, please check the status of the website at our [status page](http://status.daztab.com/) to determine if it's a problem with the website itself. If the status page shows no issues, try troubleshooting by clearing your browser cache, using a different browser or device, and testing your internet connection. If the problem persists, feel free to contact me at z@zigao.xyz for further assistance.
