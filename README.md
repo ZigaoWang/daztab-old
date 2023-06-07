@@ -15,7 +15,7 @@
 
 ## Installation
 
-You can download and install Daztab from the [Chrome Web Store](https://chrome.google.com/webstore/detail/daztab/hbmlahbmfllldaoljckllpmlcdoihhdn) or [Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/addon/daztab/).
+You can download and install Daztab from the <a href="https://chrome.google.com/webstore/detail/daztab/hbmlahbmfllldaoljckllpmlcdoihhdn" target="_blank">Chrome Web Store</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/daztab/" target="_blank">Firefox Add-ons Store</a>
 
 ## How to Use
 
