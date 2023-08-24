@@ -1,5 +1,5 @@
 # Daztab - *Browse with Ease*
-## Notice: Daztab is deprecated and will no longer be maintained, please use [DazTab Lite](https://github.com/ZigaoWang/daztab-lite) instead.
+## Notice: The deprecation period for Daztab has ended. From Aug 1st, 2023, Daztab will no longer be maintained, please use [DazTab Lite](https://github.com/ZigaoWang/daztab-lite) instead.
 
 ![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fdaztab.com)
 ![GitHub](https://img.shields.io/github/license/ZigaoWang/daztab)
